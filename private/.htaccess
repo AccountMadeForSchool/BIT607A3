@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Staff Login"
+AuthUserFile "/app/private/misc/.htpasswd"
+Require valid-user

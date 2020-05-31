@@ -1,0 +1,162 @@
+﻿/* The navigation bar CSS was adapted from https://www.w3schools.com/css/css_navbar_horizontal.asp. Retrieved April 2020. */
+
+#beverages {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-bottom: 2em;
+}
+
+.calendarapi {
+    border: none;
+    display: block;
+    margin: auto;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    width: 70%;
+    height: 80vh;
+}
+
+#dishes {
+    width: 75%;
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-bottom: 2em;
+}
+
+#haukaiinterior {
+    width: 60%;
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-bottom: 2em;
+}
+
+#mapapi {
+    border: none;
+    display: block;
+    margin: auto;
+    width: 80%;
+    margin-bottom: 2em;
+    height: 20em;
+}
+
+#reservationform {
+    border: none;
+    display: block;
+    margin: auto;
+    width: 70%;
+    height: 40em;
+    margin-bottom: 5em;
+}
+
+body {
+    background-color: floralwhite;
+    font-family: "Times New Roman", serif;
+}
+
+footer {
+    color: darkorange;
+    text-align: center;
+    font-size: 1.5em;
+    background-color: blanchedalmond;
+    float: left;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    font-weight: bold;
+    width: 100%;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 4em;
+    font-style: italic;
+    color: orange;
+    background-color: blanchedalmond;
+}
+
+h2 {
+    text-align: center;
+    font-size: 3.5em;
+    color: orange;
+    background-color: blanchedalmond;
+}
+
+h3 {
+    text-align: center;
+    font-size: 3em;
+    color: orange;
+    background-color: blanchedalmond;
+}
+
+p {
+    font-family: "Raleway", sans-serif;
+    font-size: 1.2em;
+    margin: auto;
+    background-color: darkorange;
+    color: floralwhite;
+    width: 80%;
+    opacity: 0.8;
+    padding: 2em;
+    margin-bottom: 2em;
+}
+
+ul {
+    font-family: "Raleway", sans-serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    font-size: 1.3em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+li a {
+    display: block;
+    color: darkorange;
+    padding: 0.8em 0.8em;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: darkorange;
+    color: floralwhite;
+}
+
+.privacylink {
+    color: darkorange;
+}
+
+
+@media only screen and (max-width: 400px) {
+    .calendarapi, #beverages, #dishes, #haukaiinterior, #reservationform {
+        width: 80%;
+    }
+    body {
+        overflow-x: hidden;
+    }
+    h1 {
+        font-size: 2.5em;
+    }
+    h2 {
+        font-size: 2em;
+    }
+    h3 {
+        font-size: 1.5em;
+    }
+    p {
+        font-size: 1em;
+        width: 70%;
+    }
+    footer {
+        font-size: 1em;
+    }
+}
